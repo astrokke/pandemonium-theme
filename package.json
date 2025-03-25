@@ -1,0 +1,22 @@
+{
+  "name": "pandemonium-theme",
+  "displayName": "Pandemonium Theme",
+  "description": "Un thème sombre avec des couleurs éclatantes.",
+  "version": "1.0.0",
+  "publisher": "Astrokke",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Pandemonium",
+        "uiTheme": "vs-dark",
+        "path": "./pandemonium.json"
+      }
+    ]
+  }
+}

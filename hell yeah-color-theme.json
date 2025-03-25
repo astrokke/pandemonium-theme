@@ -1,0 +1,175 @@
+{
+  "name": "Pandemonium",
+  "colors": {
+    "editor.background": "#1C1C1C", // Couleur de fond de l'éditeur (noir foncé)
+    "editor.foreground": "#ffffff", // Couleur du texte par défaut (blanc)
+    "activityBarBadge.background": "#00ff2a", // Couleur des badges sur la barre latérale (vert fluo)
+    "sideBarTitle.foreground": "#e6e6e6" // Couleur des titres de la barre latérale (gris clair)
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#669bbc" // Commentaires en bleu clair italique
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#989fce" // Variables en rouge foncé
+      }
+    },
+    {
+      "name": "Colors",
+      "scope": ["constant.other.color"],
+      "settings": {
+        "foreground": "#7dc030" // Valeurs de couleurs en vert vif
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#FF5370" // Erreurs de syntaxe en rouge vif
+      }
+    },
+    {
+      "name": "Keyword, Storage",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#C792EA" // Mots-clés et types de stockage en violet clair
+      }
+    },
+    {
+      "name": "Operator, Misc",
+      "scope": [
+        "keyword.control",
+        "constant.other.color",
+        "punctuation",
+        "meta.tag",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#e09f3e" // Opérateurs et divers éléments en orange
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag", "meta.tag.sgml"],
+      "settings": {
+        "foreground": "#FF6347" // Noms de balises HTML/XML en rouge orangé
+      }
+    },
+    {
+      "name": "Function, Special Method",
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#359662" // Noms de fonctions en saumon
+      }
+    },
+    {
+      "name": "Number, Constant, Function Argument",
+      "scope": ["constant.numeric", "variable.parameter"],
+      "settings": {
+        "foreground": "#335c67" // Nombres et constantes en corail
+      }
+    },
+    {
+      "name": "String, Symbols",
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#84dcc6" // Chaînes de caractères et symboles en doré
+      }
+    },
+    {
+      "name": "Class, Support",
+      "scope": ["entity.name", "support.class"],
+      "settings": {
+        "foreground": "#e5383b" // Noms de classes et types supportés en jaune orangé
+      }
+    },
+    {
+      "name": "Entity Types",
+      "scope": ["support.type"],
+      "settings": {
+        "foreground": "#D4A017" // Types en jaune foncé
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#C792EA" // Attributs HTML et CSS en violet
+      }
+    },
+    {
+      "name": "CSS Classes",
+      "scope": ["entity.other.attribute-name.class"],
+      "settings": {
+        "foreground": "#FFCB6B" // Classes CSS en jaune orangé
+      }
+    },
+    {
+      "name": "CSS ID's",
+      "scope": ["source.sass keyword.control"],
+      "settings": {
+        "foreground": "#FFA07A" // ID CSS en saumon
+      }
+    },
+    {
+      "name": "Regular Expressions",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#FFA500" // Expressions régulières en orange
+      }
+    },
+    {
+      "name": "Escape Characters",
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#FFA500" // Caractères d'échappement en orange
+      }
+    },
+    {
+      "name": "Markdown - Heading",
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#FFD700" // Titres Markdown en doré
+      }
+    },
+    {
+      "name": "Markdown - Bold",
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#FF6347" // Texte en gras en rouge orangé
+      }
+    },
+    {
+      "name": "Markdown - Italic",
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#FF6347" // Texte en italique en rouge orangé
+      }
+    },
+    {
+      "name": "Markdown - Link",
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#FFA07A" // Liens Markdown en saumon
+      }
+    },
+    {
+      "name": "terminal foreground",
+      "scope": "terminal.",
+      "settings": {
+        "foreground": "#00c93c",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}
